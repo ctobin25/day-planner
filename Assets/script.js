@@ -1,5 +1,4 @@
 
-
 $("#currentDay").text(moment().format('MMMM Do YYYY'));
 
 // class .
@@ -15,11 +14,5 @@ var saveVal = $(this).siblings('textarea').val();
 
 localStorage.setItem(saveKey, saveVal);
 }
-
-
-
-
-
-
 
 
