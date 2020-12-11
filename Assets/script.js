@@ -1,9 +1,7 @@
 
-$("#currentDay").text(moment().format('MMMM Do YYYY'));
+$("#currentDay").text(moment().format('MMMM Do YYYY h:mm'));
 
-// class .
-// id # 
-// tag - element name
+
 $('.saveBtn').on( "click", saveData)
 
 function saveData(){
